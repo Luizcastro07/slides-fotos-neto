@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="stily.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/Img/Guia Front-end.svg" alt="Guia Front-End"></div>
+                <div class="swiper-slide"><img src="/Img/UX.svg" alt="Livro sobre Ux e Design"></div>
+                <div class="swiper-slide"><img src="/Img/Portugol.svg" alt="Livro sobre Portugol"></div>
+                <div class="swiper-slide"><img src="/Img/ReactNative.svg" alt="Livro sobre ReactNative"></div>
+                <div class="swiper-slide"><img src="/Img/Nodejs.svg" alt="Livro sobre Nodejs"></div>
+                <div class="swiper-slide"><img src="/Img/Liderança.svg" alt="Guia sobre liderança"></div>
+                ...
+                <div class="swiper-slide"><img src="/Img/Guia Front-end.svg" alt="Guia Front-End"></div>
+                <div class="swiper-slide"><img src="/Img/UX.svg" alt="Livro sobre Ux e Design"></div>
+                <div class="swiper-slide"><img src="/Img/Portugol.svg" alt="Livro sobre Portugol"></div>
+                <div class="swiper-slide"><img src="/Img/ReactNative.svg" alt="Livro sobre ReactNative"></div>
+                <div class="swiper-slide"><img src="/Img/Nodejs.svg" alt="Livro sobre Nodejs"></div>
+                <div class="swiper-slide"><img src="/Img/Liderança.svg" alt="Guia sobre liderança"></div>
+                ...
+                </div>
+                
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+    }
+    });
+            </script>   
+</body>
+</html>
